@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function fetcher() {
       // create another container for each message
       for (const key in storage) {
         let temp = document.createElement("article");
-        temp.innerHTML = `<span class="month">${key}</span> : <span class="occurence">${storage[key]}</span> cases`;
+        temp.innerHTML = `<span class="month">${key}</span> : <span class="occurence" style="color:red">${storage[key]}</span> cases`;
         document.body.appendChild(temp);
       }
     });
