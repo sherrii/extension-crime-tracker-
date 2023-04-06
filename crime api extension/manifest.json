@@ -1,0 +1,11 @@
+{
+  "name": "CRIME TRACKER",
+  "version": "1.0.0",
+  "description": "NY Monthly Crime",
+  "manifest_version": 3,
+  "author": "Sherry, Kenny",
+  "action":{
+      "default_popup": "crimeTracker.html",
+      "default_title": "Latest Crime Report"
+  }
+}
