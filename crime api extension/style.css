@@ -1,8 +1,11 @@
 body {
+    background-image: url("bg.png");
+    background-size:550px;
     border: 1px solid black;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
-    
+    width: 240px;
+    font-size: 15px;
 }
 
 .icon{
@@ -10,4 +13,12 @@ body {
         margin-left: auto;
         margin-right: auto;
         width: 35%;
+}
+
+span{
+    color: red;
+}
+
+h1{
+    color:white;
 }
